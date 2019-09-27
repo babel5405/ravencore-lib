@@ -5,10 +5,9 @@ We're working hard to make *ravencore* the most powerful JavaScript library for 
 
 ## Community
 
-If there are any questions, etc., please feel to ask in one of the community channels:
+If there are any questions, etc., please feel to ask in the #Development channel in the community discord:
 
-- https://labs.bitpay.com/c/bitcore (Support Forum)
-- https://gitter.im/bitpay/bitcore (Development Chat)
+- https://discord.gg/jn6uhur (Support Forum)
 
 ## Quick Checklist
 

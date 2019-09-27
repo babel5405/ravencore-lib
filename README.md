@@ -38,7 +38,7 @@ We're using ravencore in production, but please use common sense when doing anyt
 
 Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/underdarkskies/ravencore-lib/blob/master/CONTRIBUTING.md) file.
 
-## Building the Browser Bundle
+## Building the Browser Bundle !!Unsupported as no block header decode functions purely in JS!!
 
 To build a ravencore-lib full bundle for the browser:
 
@@ -56,10 +56,10 @@ cd ravencore-lib
 npm install
 ```
 
-Run all the tests:
+Run the node tests(browser tests will fail because there are no pure js libs for x16r or x16rV2:
 
 ```sh
-gulp test
+gulp test:node
 ```
 
 You can also run just the Node.js tests with `gulp test:node`, just the browser tests with `gulp test:browser`
@@ -68,3 +68,6 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 ## License
 
 Code released under [the MIT license](https://github.com/underdarkskies/ravencore-lib/blob/master/LICENSE).
+
+Copyright 2018-2019 UnderDarkSkies
+Copyright 2013-2017 BitPay, Inc. 

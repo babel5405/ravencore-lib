@@ -3205,7 +3205,7 @@ module.exports.extend = function(spec) {
 },{"./spec":18,"lodash":194}],18:[function(require,module,exports){
 'use strict';
 
-var docsURL = 'http://bitcore.io/';
+var docsURL = 'http://under.codes/';
 
 module.exports = [{
   name: 'InvalidB58Char',
@@ -10036,7 +10036,7 @@ Transaction.prototype.checkedSerialize = function(opts) {
   var serializationError = this.getSerializationError(opts);
   if (serializationError) {
     serializationError.message += ' - For more information please see: ' +
-      'https://bitcore.io/api/lib/transaction#serialization-checks';
+      'https://google.com';
     throw serializationError;
   }
   return this.uncheckedSerialize();
@@ -55326,7 +55326,7 @@ module.exports={
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
-    "test": "gulp test",
+    "test": "gulp test:node",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
@@ -55334,7 +55334,59 @@ module.exports={
     {
       "name": "Under",
       "email": ""
-    }
+	},
+    {
+      "name": "Blondfrogs",
+      "email": ""
+    },
+    {
+      "name": "Traysi",
+      "email": ""
+    },
+	{
+      "name": "Daniel Cousens",
+      "email": "bitcoin@dcousens.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Gordon Hall",
+      "email": "gordon@bitpay.com"
+    },
+    {
+      "name": "Jeff Garzik",
+      "email": "jgarzik@bitpay.com"
+    },
+    {
+      "name": "Kyle Drake",
+      "email": "kyle@kyledrake.net"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryanxcharles@gmail.com"
+    },
+    {
+      "name": "Stefan Thomas",
+      "email": "moon@justmoon.net"
+    },
+    {
+      "name": "Stephen Pair",
+      "email": "stephen@bitpay.com"
+    },
+    {
+      "name": "Wei Lu",
+      "email": "luwei.here@gmail.com"
+	}
   ],
   "keywords": [
     "ravencoin",

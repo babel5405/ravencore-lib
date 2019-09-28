@@ -2,7 +2,7 @@
 
 ## Principles
 
-Ravencoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the ravencoin network allows for highly resilient ravencoin infrastructure, and the developer community needs reliable, open-source tools to implement ravencoin apps and services. Ravencore provides a reliable API for JavaScript apps that need to interface with ravencoin.
+Ravencoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Ravencoin network allows for highly resilient ravencoin infrastructure, and the developer community needs reliable, open-source tools to implement ravencoin apps and services. Ravencore provides a reliable API for JavaScript apps that need to interface with Ravencoin.
 
 To get started, just `npm install ravencore` or `bower install ravencore`.
 
@@ -17,7 +17,7 @@ To get started, just `npm install ravencore` or `bower install ravencore`.
 
 ## Payment Handling
 * [Using Different Units](unit.md)
-* [Acknowledging and Requesting Payments: ravencoin URIs](uri.md)
+* [Acknowledging and Requesting Payments: Ravencoin URIs](uri.md)
 * [The Transaction Class](transaction.md)
 
 ## Ravencoin Internals

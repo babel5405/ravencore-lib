@@ -18,7 +18,7 @@ var tx_valid = require('../data/ravend/tx_valid');
 var tx_invalid = require('../data/ravend/tx_invalid');
 
 //the script string format used in ravend data tests
-Script.fromravendString = function(str) {
+Script.fromRavendString = function(str) {
   var bw = new BufferWriter();
   var tokens = str.split(' ');
   for (var i = 0; i < tokens.length; i++) {
@@ -301,8 +301,8 @@ describe('Interpreter', function() {
   };
 
   var testFixture = function(vector, expected) {
-    var scriptSig = Script.fromravendString(vector[0]);
-    var scriptPubkey = Script.fromravendString(vector[1]);
+    var scriptSig = Script.fromRavendString(vector[0]);
+    var scriptPubkey = Script.fromRavendString(vector[1]);
     var flags = getFlags(vector[2]);
 
     var hashbuf = new Buffer(32);
@@ -380,7 +380,7 @@ describe('Interpreter', function() {
             if (txoutnum === -1) {
               txoutnum = 0xffffffff; //ravend casts -1 to an unsigned int
             }
-            map[txid + ':' + txoutnum] = Script.fromravendString(scriptPubKeyStr);
+            map[txid + ':' + txoutnum] = Script.fromRavendString(scriptPubKeyStr);
           });
 
           var tx = new Transaction(txhex);

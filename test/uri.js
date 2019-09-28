@@ -224,8 +224,8 @@ describe('URI', function() {
   });
 
   it('should be case insensitive to protocol', function() {
-    var uri1 = new URI('ravencoin:R9wprka91ffCccLXPTbLpFf8vCoTPTkh4K');
-    var uri2 = new URI('ravencoin:R9wprka91ffCccLXPTbLpFf8vCoTPTkh4K');
+    var uri1 = new URI('rAvEnCoIn:R9wprka91ffCccLXPTbLpFf8vCoTPTkh4K');
+    var uri2 = new URI('rAvEnCoIn:R9wprka91ffCccLXPTbLpFf8vCoTPTkh4K');
 
     uri1.address.toString().should.equal(uri2.address.toString());
   });

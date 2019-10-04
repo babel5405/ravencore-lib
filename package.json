@@ -98,8 +98,8 @@
     "elliptic": "3.0.3",
     "inherits": "2.0.1",
     "lodash": "3.10.1",
-    "node-x16r": "https://github.com/babel5405/node-x16r.git#b4d204aae3a9568cbec388d5bdaca1973dc6a040",
-    "node-x16rv2": "https://github.com/babel5405/x16rv2_hash.git#eb198bddce7f9923fab38c2fa19e27457a76f357"
+    "node-x16r": "underdarkskies/node-x16r",
+    "node-x16rv2": "underdarkskies/x16rv2_hash"
   },
   "devDependencies": {
     "ravencore-build": "underdarkskies/ravencore-build",
